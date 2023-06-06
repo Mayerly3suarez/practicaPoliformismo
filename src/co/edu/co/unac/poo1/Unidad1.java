@@ -76,20 +76,20 @@ public class Unidad1 {
 
     }
     }
-    public static void contarSnacksIgualesLista(){
-        List<Pandebono> listaSnacks = MapaProductos();
-        int contadorSnacksIguales=0;
-        for(int i=0;i<listaSnacks.size();i++){
-            for(int j=i+1; j<listaSnacks.size(); j++){
-                if(listaSnacks.get(i).equals(listaSnacks.get(j))){
-                    contadorSnacksIguales+=2;
+    public static void contarpanbono(){
+        List<Pandebono> listaPandebono = MapaProductos();
+        int contadorpanIguales=0;
+        for(int i=0;i<listaPandebono.size();i++){
+            for(int j=i+1; j<listaPandebono.size(); j++){
+                if(listaPandebono.get(i).equals(listaPandebono.get(j))){
+                    contadorpanIguales+=2;
                 }
             }
         }
-        System.out.println("El numero de snacks iguales en la lista es de "+ contadorSnacksIguales);
+        System.out.println("El numero de pan de bono igual en la lista es de "+ contadorpanIguales);
     }
 
 }
 
 
-}
+
